@@ -1,0 +1,1 @@
+Here are some files to make it easier to understand the API responses.

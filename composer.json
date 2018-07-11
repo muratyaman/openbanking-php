@@ -1,0 +1,20 @@
+{
+  "name": "mybanks/openbanking-php",
+  "description": "API/backend services as proxy/middle layer between APIs of banks and your app",
+  "type": "project",
+  "require": {
+    "slim/slim": "^3.10",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "authors": [
+    {
+      "name": "Haci Murat Yaman",
+      "email": "haci@muratyaman.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OpenBanking\\": "src/OpenBanking/"
+    }
+  }
+}
